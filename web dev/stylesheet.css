@@ -1,0 +1,24 @@
+h1{
+    background-color:magenta;
+    text-align: center;
+    
+}
+.main{
+    text-align: center;
+
+}
+body{
+    background-color:olive;
+    
+}
+a{
+    text-align:center;
+    color:blue;
+
+}
+hr{
+   background-color: black;
+    width:auto;
+    height:2px;
+
+}

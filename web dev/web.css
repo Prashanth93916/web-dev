@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #131921;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo span {
+  color: orange;
+}
+
+.search-box {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.cart {
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #232f3e;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.hero {
+  background: url('https://m.media-amazon.com/images/G/31/IMG20/Home/2023/Diwali/D90938169_IN_WLD_DIWALI_GW_hero_1500x600._CB573257189_.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
